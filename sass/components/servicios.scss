@@ -1,0 +1,66 @@
+
+.nuestrosservicios{
+    width: 70%;
+    margin:0 auto;
+    display: grid;
+    grid-template-areas: 
+    "uno dos tres"
+    "cuatro cinco seis";
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    text-align: center; 
+
+}  
+
+.servicio{
+    padding-bottom: 8%;
+    padding-right: 250px;
+}
+.servicios{
+    padding: 3.6%;
+    margin: 4.5%;
+    padding-right: 25%;
+    .serviciostitulo{
+        margin-top: 5%;
+    }    
+}
+.uno{
+    grid-area: uno;
+    width: 100%;/*  */
+    text-align: center;
+    
+}
+.dos{
+    grid-area: dos;
+    width: 100%;
+    text-align: center;
+
+}
+.tres{ 
+    grid-area:tres;
+    width: 100%;
+    text-align: center;
+
+}
+
+.cuatro{
+    grid-area: cuatro;
+    width: 100%;
+    text-align: center;
+
+}
+.cinco{
+    grid-area: cinco;
+    width: 100%;
+    text-align: center;
+
+}
+.seis{ 
+    grid-area:seis;
+    width: 100%;
+    text-align: center;
+} 
+.servicio img{
+    width:300px;
+    height: 168px;
+}

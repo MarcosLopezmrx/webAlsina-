@@ -1,0 +1,27 @@
+$color-principal:rgb(88, 86, 86);
+$color-texto:rgb(0, 0, 0);
+
+
+.center{
+    text-align: center;
+}
+.borde{
+    border:solid 3px black;
+}
+.estilos{
+    list-style: none;
+    color:$color-texto;
+}
+.padding{
+    padding:5%;
+}
+.margin{
+    margin:5%;
+}
+
+
+$paleta: (
+    texto:black,
+    principal:grey,
+    error: red,
+);
