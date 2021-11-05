@@ -18,13 +18,15 @@ p{
     padding:0;
 }
 .navv{
+
     background-color: $color-principal;
-    
+
 }
+
 .logo{
-    width: 50px;
-    height: 50px;
+    margin-right: -7%;
 }
+
 h1{
     color:$color-texto;
     margin: 5%;
@@ -37,37 +39,7 @@ h2{
 .listaproyecto{
     color:$color-texto;
 }
-footer{
-    display: flex;  
-    color:$color-principal;
 
-    color: white;
-    background-color: $color-principal;
-    .asd{
-        display:inline;
-    }
-    .copy {
-        margin-top: 0%;
-        color: white;
-        a{
-            font-size: 15px;
-            margin: 5%;
-            color: white;
-            margin-top: 2%;
-            list-style: none;
-            text-decoration: none;
-            }
-        i{
-            padding-left: 8%;
-            margin-top: 2%;
-            font-size: 20px; 
-        }
-    }
-    .copylink{
-        color:$color-texto;
-    }
-
-}
 
 
 
