@@ -1,6 +1,6 @@
 .contacto{
     margin-top: 2%;
-
+justify-content: center;
 }
 .mapacontacto{
     display: flex;
@@ -8,4 +8,10 @@
     height: 403px;
     width: 50%;
     margin: 0 auto;
+}
+
+.numeros{
+    padding-left: 2%;
+font-size: 15px;
+width: 6%;
 }
