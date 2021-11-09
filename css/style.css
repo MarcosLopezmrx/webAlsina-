@@ -70,10 +70,20 @@
   grid-template-rows: repeat(2, 1fr);
   text-align: center; }
 
+.serviciostitulo {
+  font-size: 23px; }
+
 .imgservicios3 {
   width: 70%;
   height: 60%;
   margin-left: 15%; }
+
+.listaservicio {
+  padding-top: 2%;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: left;
+  width: 80%; }
 
 .servicio {
   padding-bottom: 8%;
@@ -161,6 +171,18 @@
 .estilos {
   list-style: none;
   color: black; }
+
+.ancho33 {
+  width: 30%;
+  margin: 0 auto; }
+
+.ancho50 {
+  width: 50%;
+  margin: 0 auto; }
+
+.ancho80 {
+  width: 80%;
+  margin: 0 auto; }
 
 .padding {
   padding: 5%; }
