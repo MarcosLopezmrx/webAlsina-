@@ -1,0 +1,30 @@
+
+.j51thumbs .clear {clear:both; height:0px; width:100%;}
+
+.j51thumbs {
+		float:left;
+		margin:6px 0 0 0;
+	}
+
+	
+.j51thumbs i {
+	background: #000000;
+	display: block;
+	opacity: 0; 
+	position: absolute;
+}
+.j51thumbs .j51Box {
+	float:left;
+	padding:0px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	font-size:0;
+	line-height:0;
+	position:relative;
+}
+
+.j51thumbs .j51Box img {
+	background-image:none !important;
+}
+

@@ -1,8 +1,8 @@
 
 .nuestrosservicios{
-    width: 70%;
-    margin:0 auto;
+    width: 100%;
     display: grid;
+    margin-left: 18%;
     grid-template-areas: 
     "uno dos tres"
     "cuatro cinco seis";
@@ -11,18 +11,21 @@
     text-align: center; 
 
 }  
+.imgservicios3{
 
+    width: 70%;
+    height: 60%;
+    margin-left: 15%;
+
+}
 .servicio{
     padding-bottom: 8%;
     padding-right: 250px;
 }
 .servicios{
-    padding: 3.6%;
-    margin: 4.5%;
+
     padding-right: 25%;
-    .serviciostitulo{
-        margin-top: 5%;
-    }    
+
 }
 .uno{
     grid-area: uno;
@@ -64,3 +67,33 @@
     width:300px;
     height: 168px;
 }
+
+.serviciosparrafo{
+    margin: 0 14% 3% 10%;
+}
+
+.galeria{
+    padding-left: 10%;
+    width: 100%;
+}
+.parrafoservicios{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.parrafoservicios1{
+    margin:0 auto;
+    margin-top: 5%;
+}
+
+.imgservicios1{
+padding-top: 2%;
+}
+
+.imgservicios2{
+    padding-top: 20%;
+    }
+.imgservicios3{
+        padding-top: 4%;
+        
+    }
