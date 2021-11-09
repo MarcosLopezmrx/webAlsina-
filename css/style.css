@@ -184,6 +184,10 @@
   width: 80%;
   margin: 0 auto; }
 
+.ancho100 {
+  width: 100%;
+  margin: 0 auto; }
+
 .padding {
   padding: 5%; }
 
@@ -201,6 +205,13 @@ p {
 
 .container-fluid {
   padding: 0; }
+
+.minilogo {
+  margin: 0 auto;
+  width: 16px;
+  height: 18px;
+  margin-right: 5px;
+  margin-bottom: 8px; }
 
 .navv {
   background-color: #585656; }
