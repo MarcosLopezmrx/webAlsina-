@@ -1,0 +1,33 @@
+p{
+    @extend %parrafos;
+    }
+    .fondo2{
+        background: url('../img/bg.jpg');
+    
+        background-position: 20px;
+    }
+    .minilogo{
+        margin: 0 auto;
+        width: 16px;
+        height: 18px;
+     margin-right: 5px;
+     margin-bottom: 8px;
+    }
+    .fondo{
+        background: url('../img/header.jpg');
+    
+        background-position: 30px;
+    }
+    h1{
+        color:$color-texto;
+        padding: 3%;
+    }
+    h2{
+        color:$color-texto;
+        
+        margin: 4%;
+    }
+    .listaproyecto{
+        color:$color-texto;
+    }
+    
