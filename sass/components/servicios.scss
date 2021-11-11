@@ -35,6 +35,7 @@
     text-align: left;
 
 }
+
 .servicio{
     padding-bottom: 8%;
     padding-right: 250px;
@@ -116,4 +117,25 @@ padding-top: 2%;
     }
     .servicioslistas{
         padding-left: 15%;
+    }
+    @media screen and (max-width: 400px){
+        .serviciostitulo{
+        font-size:15px;
+        }
+        .parrafoservicios{
+            font-size:17px;
+            justify-content: center;
+        }
+        .serviciosparrafo{
+            font-size:17px;
+            justify-content: center;
+        }
+        .listaservicio{
+            font-size: 15px;
+        }
+        .servicios1{
+            font-size:17px;
+            justify-content: center;
+            width: 100%;
+        }
     }

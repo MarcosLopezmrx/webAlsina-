@@ -55,11 +55,23 @@
   margin-bottom: 10%;
   font-size: 17px; }
 
+@media screen and (max-width: 400px) {
+  .nosotros {
+    width: 100%;
+    justify-content: center;
+    font-size: 15px; } }
+
 .h4proyectos {
   margin: 0 5% 3% 5%; }
 
 .obras {
   font-size: 20px; }
+
+@media screen and (max-width: 400px) {
+  .h4proyectos {
+    font-size: 17px; }
+  .listaproyectos {
+    font-size: 15px; } }
 
 .nuestrosservicios {
   width: 100%;
@@ -157,6 +169,22 @@
 .servicioslistas {
   padding-left: 15%; }
 
+@media screen and (max-width: 400px) {
+  .serviciostitulo {
+    font-size: 15px; }
+  .parrafoservicios {
+    font-size: 17px;
+    justify-content: center; }
+  .serviciosparrafo {
+    font-size: 17px;
+    justify-content: center; }
+  .listaservicio {
+    font-size: 15px; }
+  .servicios1 {
+    font-size: 17px;
+    justify-content: center;
+    width: 100%; } }
+
 .error {
   color: white; }
 
@@ -246,6 +274,12 @@ h2 {
 
 .listaproyecto {
   color: black; }
+
+@media screen and (max-width: 400px) {
+  .parrafoInicio p {
+    font-size: 15px; }
+  .titulo {
+    font-size: 20px; } }
 
 * {
   margin: 0;

@@ -30,4 +30,11 @@ p{
     .listaproyecto{
         color:$color-texto;
     }
-    
+    @media screen and (max-width: 400px){
+        .parrafoInicio p{
+        font-size:15px;
+        }
+        .titulo{
+            font-size:20px;
+        }
+    }
