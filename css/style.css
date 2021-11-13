@@ -1,3 +1,45 @@
+.center {
+  text-align: center; }
+
+.borde {
+  border: solid 3px black; }
+
+.estilos {
+  list-style: none;
+  color: black; }
+
+.ancho33 {
+  width: 30%;
+  margin: 0 auto; }
+
+.ancho50 {
+  display: inline-block;
+  margin: 0 auto;
+  width: 50%; }
+  .ancho50 .centrado {
+    margin: 0 auto; }
+
+.texto17 {
+  font-size: 17px; }
+
+.ancho80 {
+  width: 80%;
+  margin: 0 auto; }
+
+.ancho100 {
+  width: 100%;
+  margin: 0 auto; }
+
+.padding {
+  padding: 5%; }
+
+.margin {
+  margin: 5%; }
+
+p {
+  color: black;
+  font-size: 30px; }
+
 .contacto {
   margin-top: 2%;
   justify-content: center; }
@@ -32,7 +74,7 @@
 
 .parrafoInicio {
   width: 88%;
-  font-size: 13px;
+  font-size: 24px;
   margin: 5%; }
 
 .carrusel {
@@ -62,7 +104,8 @@
     font-size: 15px; } }
 
 .h4proyectos {
-  margin: 0 5% 3% 5%; }
+  margin: 0 5% 3% 5%;
+  font-size: 24px; }
 
 .obras {
   font-size: 20px; }
@@ -72,6 +115,9 @@
     font-size: 17px; }
   .listaproyectos {
     font-size: 15px; } }
+
+.listaproyecto {
+  color: black; }
 
 .nuestrosservicios {
   width: 100%;
@@ -151,6 +197,7 @@
 
 .parrafoservicios {
   width: 80%;
+  font-size: 24.3px;
   margin: 0 auto; }
 
 .parrafoservicios1 {
@@ -181,9 +228,11 @@
   .listaservicio {
     font-size: 15px; }
   .servicios1 {
-    font-size: 17px;
+    font-size: 170px;
     justify-content: center;
-    width: 100%; } }
+    width: 100%; }
+  .linksservicios {
+    margin: 0 auto; } }
 
 .error {
   color: white; }
@@ -195,43 +244,6 @@
   display: block;
   margin: 0 auto;
   width: 20%; }
-
-.center {
-  text-align: center; }
-
-.borde {
-  border: solid 3px black; }
-
-.estilos {
-  list-style: none;
-  color: black; }
-
-.ancho33 {
-  width: 30%;
-  margin: 0 auto; }
-
-.ancho50 {
-  display: inline-block;
-  margin: 0 auto;
-  width: 50%; }
-
-.ancho80 {
-  width: 80%;
-  margin: 0 auto; }
-
-.ancho100 {
-  width: 100%;
-  margin: 0 auto; }
-
-.padding {
-  padding: 5%; }
-
-.margin {
-  margin: 5%; }
-
-p {
-  color: black;
-  font-size: 30px; }
 
 .navbar-collapse {
   padding-left: 10%; }
@@ -248,6 +260,11 @@ p {
 .navbar-collapse {
   justify-content: center;
   margin-left: -9%; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
 
 .fondo2 {
   background: url("../img/bg.jpg");
@@ -272,16 +289,8 @@ h2 {
   color: black;
   margin: 4%; }
 
-.listaproyecto {
-  color: black; }
-
 @media screen and (max-width: 400px) {
   .parrafoInicio p {
     font-size: 15px; }
   .titulo {
     font-size: 20px; } }
-
-* {
-  margin: 0;
-  padding: 0;
-  font-family: Georgia, 'Times New Roman', Times, serif; }

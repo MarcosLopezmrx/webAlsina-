@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
 p{
     @extend %parrafos;
     }
@@ -6,7 +13,9 @@ p{
     
         background-position: 20px;
     }
+    
     .minilogo{
+
         margin: 0 auto;
         width: 16px;
         height: 18px;
@@ -18,6 +27,7 @@ p{
     
         background-position: 30px;
     }
+
     h1{
         color:$color-texto;
         padding: 3%;
@@ -27,9 +37,7 @@ p{
         
         margin: 4%;
     }
-    .listaproyecto{
-        color:$color-texto;
-    }
+ 
     @media screen and (max-width: 400px){
         .parrafoInicio p{
         font-size:15px;

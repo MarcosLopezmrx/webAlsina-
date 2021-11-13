@@ -1,16 +1,10 @@
+@import 'base/variables';
+@import 'base/extend';
 @import 'components/contacto';
 @import 'components/index';
 @import 'components/nosotros';
 @import 'components/nuestrosproyectos';
 @import 'components/servicios';
 @import 'components/404';
-@import 'base/variables';
-@import 'base/extend';
 @import 'components/navbar';
 @import 'components/header';
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
