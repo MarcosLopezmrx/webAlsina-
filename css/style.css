@@ -92,6 +92,10 @@ p {
 .orange {
   color: orange; }
 
+@media screen and (max-width: 400px) {
+  .parrafoInicio {
+    font-size: 17px; } }
+
 .nosotros {
   display: flex;
   margin-bottom: 10%;
@@ -228,7 +232,7 @@ p {
   .listaservicio {
     font-size: 15px; }
   .servicios1 {
-    font-size: 170px;
+    font-size: 17px;
     justify-content: center;
     width: 100%; }
   .linksservicios {
