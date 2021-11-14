@@ -1,41 +1,3 @@
-.center {
-  text-align: center; }
-
-.borde {
-  border: solid 3px black; }
-
-.estilos {
-  list-style: none;
-  color: black; }
-
-.ancho33 {
-  width: 30%;
-  margin: 0 auto; }
-
-.ancho50 {
-  display: inline-block;
-  margin: 0 auto;
-  width: 50%; }
-  .ancho50 .centrado {
-    margin: 0 auto; }
-
-.texto17 {
-  font-size: 17px; }
-
-.ancho80 {
-  width: 80%;
-  margin: 0 auto; }
-
-.ancho100 {
-  width: 100%;
-  margin: 0 auto; }
-
-.padding {
-  padding: 5%; }
-
-.margin {
-  margin: 5%; }
-
 p {
   color: black;
   font-size: 30px; }
@@ -96,12 +58,26 @@ p {
   .parrafoInicio {
     font-size: 17px; } }
 
+.carousel-indicators {
+  margin: 0 auto;
+  width: 80%; }
+
+.carousel {
+  width: 65%;
+  background-color: black;
+  color: black; }
+
+.imgcarrusel {
+  margin: 0 auto; }
+
 .nosotros {
   display: flex;
   margin-bottom: 10%;
   font-size: 17px; }
 
 @media screen and (max-width: 400px) {
+  .nosotrosfoto {
+    padding: 5%; }
   .nosotros {
     width: 100%;
     justify-content: center;
@@ -193,7 +169,8 @@ p {
   height: 168px; }
 
 .serviciosparrafo {
-  margin: 0 14% 3% 10%; }
+  margin: 0 14% 3% 10%;
+  font-size: 24px; }
 
 .galeria {
   padding-left: 10%;
@@ -235,8 +212,6 @@ p {
     font-size: 17px;
     justify-content: center;
     width: 100%; }
-  .asd {
-    padding: 0%; }
   .linksservicios {
     margin: 0 auto; } }
 
@@ -286,6 +261,45 @@ p {
 .fondo {
   background: url("../img/header.jpg");
   background-position: 30px; }
+
+.center {
+  text-align: center; }
+
+.borde {
+  border: solid 3px black; }
+
+.estilos {
+  list-style: none;
+  color: black; }
+
+.ancho33 {
+  width: 30%;
+  margin: 0 auto; }
+
+.ancho50 {
+  display: inline-block;
+  margin: 0 auto;
+  width: 50%; }
+
+.centrado {
+  margin: 0 auto; }
+
+.texto17 {
+  font-size: 17px; }
+
+.ancho80 {
+  width: 80%;
+  margin: 0 auto; }
+
+.ancho100 {
+  width: 100%;
+  margin: 0 auto; }
+
+.padding {
+  padding: 5%; }
+
+.margin {
+  margin: 5%; }
 
 h1 {
   color: black;

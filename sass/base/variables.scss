@@ -2,48 +2,6 @@ $color-principal:rgb(88, 86, 86);
 $color-texto:rgb(0, 0, 0);
 
 
-.center{
-    text-align: center;
-}
-.borde{
-    border:solid 3px black;
-}
-.estilos{
-    list-style: none;
-    color:$color-texto;
-}
-.ancho33{
-    width: 30%;
-    margin: 0 auto;
-}
-.ancho50{
-
-    display:inline-block;
-    margin: 0 auto;
-.centrado{
-    margin:0 auto;
-}
-
-width: 50%;
-}
-.texto17{
-    font-size: 17px;
-}
-.ancho80{
-    width: 80%;
-    margin: 0 auto;
-}
-.ancho100{
-    width: 100%;
-    margin: 0 auto;
-}
-.padding{
-    padding:5%;
-}
-.margin{
-    margin:5%;
-}
-
 
 $paleta: (
     texto:black,
