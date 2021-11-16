@@ -92,6 +92,8 @@ p {
 @media screen and (max-width: 400px) {
   .h4proyectos {
     font-size: 17px; }
+  .obras {
+    margin-left: -8%; }
   .listaproyectos {
     font-size: 15px; } }
 
