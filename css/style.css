@@ -72,8 +72,7 @@ p {
 
 .nosotros {
   display: flex;
-  margin-bottom: 10%;
-  font-size: 17px; }
+  margin-bottom: 10%; }
 
 @media screen and (max-width: 400px) {
   .nosotrosfoto {
@@ -183,10 +182,11 @@ p {
 
 .parrafoservicios1 {
   margin: 0 auto;
-  margin-top: 5%; }
+  margin-top: 7%;
+  font-size: 17px; }
 
 .imgservicios1 {
-  padding-top: 2%; }
+  margin-top: 2%; }
 
 .imgservicios2 {
   padding-top: 20%; }
